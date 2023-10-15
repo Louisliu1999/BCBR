@@ -1,0 +1,3 @@
+python train.py --save_path ./dataset/dwie/save_bert_case_our_s_1_lr_5e-5 --load_path ""  --mode our --model_name_or_path bert-base-cased --learning_rate 5e-5 --num_train_epochs 50.0
+python train.py --save_path ./dataset/dwie/save_bert_case_our_s_1_lr_3e-5 --load_path ""  --mode our --model_name_or_path bert-base-cased --learning_rate 3e-5 --num_train_epochs 50.0
+python train.py --save_path ./dataset/dwie/save_bert_case_atlop_s_1_lr_5e-5 --load_path ""  --mode "" --model_name_or_path bert-base-cased --learning_rate 5e-5 --num_train_epochs 50.0
